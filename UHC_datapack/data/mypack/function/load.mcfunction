@@ -1,5 +1,5 @@
 gamerule naturalRegeneration false
-say hi
+say UHC loaded
 worldborder warning distance 50
 scoreboard objectives add Timer dummy
 scoreboard objectives add TimerRunning dummy
