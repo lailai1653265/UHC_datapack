@@ -1,4 +1,7 @@
 scoreboard players set @a timer2 0
+gamemode survival @a
+clear @a
+effect clear @a
 effect give @a minecraft:invisibility 90 2 true
 effect give @a slow_falling 90 1 true
 scoreboard players set #timerRunning TimerRunning 1
