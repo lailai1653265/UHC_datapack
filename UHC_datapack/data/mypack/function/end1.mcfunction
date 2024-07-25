@@ -1,0 +1,1 @@
+worldborder set 500 600
