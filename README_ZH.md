@@ -1,28 +1,28 @@
 # Minecraft UHC (Ultra-Hard-Core) Datapack
 
-[English](README.md) | [中文](README_ZH.md)
+[English](README.md) | [中文](README_ZH.md) | [簡體中文](README_ZH.md)
 
-# Minecraft UHC (Ultra-Hard-Core) 資料包
+# Minecraft UHC (Ultra-Hard-Core) 资料包
 
-這是一個 Minecraft UHC 資料包，下載後可以在任意世界遊玩。
+这是一个 Minecraft UHC 资料包，下载后可以在任意世界游玩。
 
-## 安裝方法
+## 安装方法
 
-1. 下載並解壓縮此資料包。
-2. 將資料包放入你的 Minecraft 世界的 `datapacks` 資料夾內。
-3. 進入 Minecraft 並重新載入你的世界 `/reload`。
+1. 下载并解压缩此资料包。
+2. 将资料包放入你的 Minecraft 世界的 `datapacks` 资料夹内。
+3. 进入 Minecraft 并重新载入你的世界 `/reload`。
 
 ## 使用方法
 
-1. 輸入 `/function mypack:start_game` 來載入遊戲。
-2. 輸入 `/function mypack:game` 來開始遊戲。
+1. 输入 `/function mypack:start_game` 来载入游戏。
+2. 输入 `/function mypack:game` 来开始游戏。
 
-## 遊戲特色
+## 游戏特色
 
-- UHC 模式：玩家無法自然恢復生命，只能依靠金蘋果、藥水等恢復手段。
-- 適用於多人遊玩。
+- UHC 模式：玩家无法自然恢复生命，只能依靠金苹果、药水等恢复手段。
+- 适用于多人游玩。
 
-## 注意事項
+## 注意事项
 
-- 請確保你使用的 Minecraft 版本與此資料包相容。
+- 请确保你使用的 Minecraft 版本与此资料包相容。
 <!-- Chinese content end -->
