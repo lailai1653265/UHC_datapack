@@ -25,5 +25,4 @@
 ## 注意事項
 
 - 請確保你使用的 Minecraft 版本與此資料包相容。
--->
 <!-- Chinese content end -->
