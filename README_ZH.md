@@ -2,34 +2,6 @@
 
 [English](README.md) | [中文](README_ZH.md)
 
-<!-- English content start -->
-
-This is a Minecraft UHC datapack that you can play in any world after downloading.
-
-## Installation
-
-1. Download and unzip this datapack.
-2. Place the datapack into the `datapacks` folder of your Minecraft world.
-3. Enter Minecraft and reload your world with `/reload`.
-
-## Usage
-
-1. Enter `/function mypack:start_game` to load the game.
-2. Enter `/function mypack:game` to start the game.
-
-## Features
-
-- UHC Mode: Players cannot naturally regenerate health, relying instead on golden apples, potions, and other healing methods.
-- Suitable for multiplayer gameplay.
-
-## Notes
-
-- Make sure you are using a compatible version of Minecraft with this datapack.
-
-<!-- English content end -->
-
-<!-- Chinese content start -->
-<!--
 # Minecraft UHC (Ultra-Hard-Core) 資料包
 
 這是一個 Minecraft UHC 資料包，下載後可以在任意世界遊玩。
