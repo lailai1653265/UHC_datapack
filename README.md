@@ -23,7 +23,7 @@ This is a Minecraft UHC datapack that you can play in any world after downloadin
 
 - Make sure you are using a compatible version of Minecraft with this datapack.
 
-------------------中文版---------------------------------------------------------------
+------------------中文版--------------------------------------------------------------
 
 # Minecraft UHC (Ultra-Hard-Core) 資料包
 
