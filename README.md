@@ -1,6 +1,10 @@
 
 # Minecraft UHC (Ultra-Hard-Core) Datapack
-## 中文版的在下方
+
+[English](README.md) | [中文](README_ZH.md)
+
+<!-- English content start -->
+
 This is a Minecraft UHC datapack that you can play in any world after downloading.
 
 ## Installation
@@ -23,8 +27,10 @@ This is a Minecraft UHC datapack that you can play in any world after downloadin
 
 - Make sure you are using a compatible version of Minecraft with this datapack.
 
-------------------中文版--------------------------------------------------------------
+<!-- English content end -->
 
+<!-- Chinese content start -->
+<!--
 # Minecraft UHC (Ultra-Hard-Core) 資料包
 
 這是一個 Minecraft UHC 資料包，下載後可以在任意世界遊玩。
@@ -33,7 +39,7 @@ This is a Minecraft UHC datapack that you can play in any world after downloadin
 
 1. 下載並解壓縮此資料包。
 2. 將資料包放入你的 Minecraft 世界的 `datapacks` 資料夾內。
-3. 進入 Minecraft 並重新載入你的世界`/reload`。
+3. 進入 Minecraft 並重新載入你的世界 `/reload`。
 
 ## 使用方法
 
@@ -48,3 +54,5 @@ This is a Minecraft UHC datapack that you can play in any world after downloadin
 ## 注意事項
 
 - 請確保你使用的 Minecraft 版本與此資料包相容。
+-->
+<!-- Chinese content end -->
