@@ -1,6 +1,6 @@
 # Minecraft UHC (Ultra-Hard-Core) Datapack
 
-[English](README.md) | [繁體中文](README_ZH.md) | [簡體中文](README_ZH.md)
+[English](README.md) | [繁體中文](README_ZH.md) | [简体中文](README_ZH.md)
 
 # Minecraft UHC (Ultra-Hard-Core) 资料包
 
