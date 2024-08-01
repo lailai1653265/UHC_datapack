@@ -1,3 +1,1 @@
-
-execute as @a at @s run tp @s ~ ~200 ~
-
+execute as @s at @s run tp @s ~ ~200 ~

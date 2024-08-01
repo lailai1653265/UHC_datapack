@@ -1,1 +1,1 @@
-spreadplayers ~ ~ 50 500 false @a
+tellraw @a ["--------------------------UHC------------------------\n",{"text":"[load game]","clickEvent":{"action":"run_command","value":"/function mypack:start_game"},"color":"gold"},"\n\n                              ",{"text":"start","color":"green"},"       ",{"text":"stop","color":"dark_red"}," "]
