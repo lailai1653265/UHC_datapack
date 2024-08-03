@@ -18,6 +18,9 @@ This is a Minecraft UHC datapack that you can play in any world after downloadin
 1. Enter `/function mypack:start_game` to load the game.
 2. Enter `/function mypack:game` to start the game.
 
+## how to play
+- At the start of the game, players will be transported to a high altitude and then gradually descend to the ground. Players need to quickly search for and collect resources before the boundary shrinks to ensure survival and prepare for subsequent battles. The ultimate goal is to defeat all other players.
+
 ## Features
 
 - UHC Mode: Players cannot naturally regenerate health, relying instead on golden apples, potions, and other healing methods.
