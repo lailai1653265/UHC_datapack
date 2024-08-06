@@ -1,13 +1,17 @@
 gamemode spectator @s
 scoreboard players set @s Deaths 0
 tellraw @a [{"selector":"@s","color":"yellow"},{"text":" 已死亡，變成了旁觀者。","color":"gold"}]
-particle minecraft:soul ~ ~0.5 ~ 0.3 0.8 0.3 0.02 50 force
-particle minecraft:soul ~ ~1 ~ 0.3 0.8 0.3 0.04 50 force
-particle minecraft:soul ~ ~1.5 ~ 0.3 0.8 0.3 0.06 50 force
-particle minecraft:end_rod ~ ~1 ~ 0.3 0.8 0.3 0.05 30 force
-# particle minecraft:dust 0.5 0.8 1 1 ~ ~0.1 ~ 0.8 0.1 0.8 0 100 forceparticle minecraft:firework ~ ~1 ~ 0.5 0.5 0.5 0.05 30 force
-particle dust{color:[0.5,0.8,1.0],scale:1} ~ ~0.1 ~ 0.1 0.8 0.1 0 100 force
-playsound minecraft:entity.wither.spawn player @a ~ ~ ~ 0.5 0.5
+execute rotated ~ 0 run function mypack:spiral_soul_effect
+function mypack:test1
+summon lightning_bolt ~ ~ ~ {NoAI:1b,Silent:1b,CustomName:'{"text":"DeathEffect"}'}
+particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 1 10 force
+particle minecraft:enchant ~ ~1 ~ 1 1 1 1 100 force
+particle minecraft:reverse_portal ~ ~1 ~ 0.5 0.5 0.5 0.1 100 force
+particle minecraft:dragon_breath ~ ~1 ~ 0.5 1 0.5 0.1 100 force
+particle minecraft:large_smoke ~ ~0.5 ~ 0.4 0.4 0.4 0.05 50 force
+playsound minecraft:entity.wither.spawn player @a ~ ~ ~ 1 0.5
+playsound minecraft:entity.elder_guardian.curse player @a ~ ~ ~ 1 1
 playsound minecraft:block.beacon.activate player @a ~ ~ ~ 1 1.5
+playsound minecraft:block.end_portal.spawn player @a ~ ~ ~ 0.5 1
+playsound minecraft:ambient.cave player @a ~ ~ ~ 1 0.7
 playsound minecraft:block.portal.ambient player @a ~ ~ ~ 0.5 1
-effect give @e[type=!player,distance=..5] glowing 2 0 true
