@@ -15,3 +15,5 @@ playsound minecraft:block.beacon.activate player @a ~ ~ ~ 1 1.5
 playsound minecraft:block.end_portal.spawn player @a ~ ~ ~ 0.5 1
 playsound minecraft:ambient.cave player @a ~ ~ ~ 1 0.7
 playsound minecraft:block.portal.ambient player @a ~ ~ ~ 0.5 1
+playsound block.sculk_shrieker.shriek player @a ~ ~ ~ 0.5 1
+playsound minecraft:entity.ender_dragon.death
