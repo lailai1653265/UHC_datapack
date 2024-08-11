@@ -2,6 +2,7 @@
 
 [English](README.md) | [繁體中文](README_ZH.md) | [简体中文](README_ZH.md)
 
+[![View on Modrinth](https://img.shields.io/badge/Modrinth-UHC__Datapack-green?style=for-the-badge&logo=modrinth)](https://modrinth.com/datapack/uhc_datapack)
 # Minecraft UHC (Ultra-Hard-Core) 资料包
 
 这是一个 Minecraft UHC 资料包，下载后可以在任意世界游玩。
