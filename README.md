@@ -3,6 +3,7 @@
 
 [English](README.md) | [繁體中文](README_ZH_TW.md)| [简体中文](README_ZH.md)
 
+[![View on Modrinth](https://img.shields.io/badge/Modrinth-UHC__Datapack-green?style=for-the-badge&logo=modrinth)](https://modrinth.com/datapack/uhc_datapack)
 <!-- English content start -->
 
 This is a Minecraft UHC datapack that you can play in any world after downloading.
