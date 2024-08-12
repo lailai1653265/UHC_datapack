@@ -14,4 +14,5 @@ scoreboard players set #timerRunning TimerRunning 0
 scoreboard players set #1200 Timer 1200
 scoreboard players set #20 Timer 20
 scoreboard objectives add Deaths deathCount
-
+scoreboard objectives add noob_mode dummy
+scoreboard players set @a noob_mode 0
