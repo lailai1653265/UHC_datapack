@@ -16,4 +16,5 @@ scoreboard players set #20 Timer 20
 scoreboard objectives add Deaths deathCount
 scoreboard objectives add noob_mode dummy
 scoreboard players set @a noob_mode 0
-title @a times 0 1 0
+scoreboard objectives add zone dummy
+scoreboard players set @a zone 0
