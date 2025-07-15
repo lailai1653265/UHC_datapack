@@ -6,4 +6,3 @@ summon villager ~ ~150 ~ {VillagerData:{type:plains,profession:nitwit,level:2},I
 summon marker ~ ~150 ~
 setworldspawn ~ ~300 ~
 tp @a ~ ~160 ~
-scoreboard players set @a zone 0
