@@ -5,6 +5,8 @@ execute as @e[type=marker] at @s positioned ~-15 ~-320 ~-15 run title @a[dx=29,d
 
 #title @a[dx=499,dy=400,dz=499] actionbar "in safe zone"
 
+scoreboard players add #timer uhc_timer 1
+
 # 檢查縮圈時間
 execute if score #timer uhc_timer = #phase1 uhc_timer run function uhc:shrink
 execute if score #timer uhc_timer = #phase2 uhc_timer run function uhc:shrink
