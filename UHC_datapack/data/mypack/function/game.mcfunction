@@ -31,4 +31,4 @@ scoreboard players set #phase6 uhc_timer 66000
 tellraw @a [{"text":"[UHC] ","color":"gold","bold":true},{"text":"第一次縮圈將在 10 分鐘後開始","color":"yellow"}]
 
 
-function mypack:game1
+execute as @a run function mypack:game1
