@@ -1,20 +1,29 @@
 gamerule naturalRegeneration false
 say UHC loaded
 worldborder warning distance 50
-scoreboard objectives add Timer dummy
-scoreboard objectives add TimerRunning dummy
-scoreboard objectives add timer2 dummy {"text": "timer2"}
-scoreboard players set @a timer2 0
-bossbar add timer "計時器未啟動"
-bossbar set timer color green
-bossbar set timer style notched_10
-bossbar set timer max 36000
-scoreboard players set #time Timer 36000
-scoreboard players set #timerRunning TimerRunning 0
-scoreboard players set #1200 Timer 1200
-scoreboard players set #20 Timer 20
 scoreboard objectives add Deaths deathCount
-scoreboard objectives add noob_mode dummy
-scoreboard players set @a noob_mode 0
-scoreboard objectives add zone dummy
-scoreboard players set @a zone 0
+bossbar add minecraft:timer10 "剩餘時間"
+bossbar set minecraft:timer10 players @a
+bossbar set minecraft:timer10 max 3600
+bossbar set minecraft:timer10 value 3600
+bossbar set minecraft:timer10 color green
+scoreboard objectives add timer dummy
+
+# 初始化縮圈系統
+# 創建計分板
+scoreboard objectives add uhc_timer dummy
+scoreboard objectives add uhc_phase dummy
+scoreboard objectives add uhc_x dummy
+scoreboard objectives add uhc_z dummy
+scoreboard objectives add uhc_outside dummy
+scoreboard objectives add uhc_center_x dummy
+scoreboard objectives add uhc_center_z dummy
+
+# 設定世界邊界
+worldborder center ~ ~
+worldborder set 2000
+worldborder damage amount 2
+worldborder damage buffer 5
+worldborder warning distance 30
+worldborder warning time 10
+worldborder warning distance 30
