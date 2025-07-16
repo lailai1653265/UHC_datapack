@@ -2,11 +2,11 @@ scoreboard players add #phase uhc_phase 1
 
 # 根據階段縮圈
 execute if score #phase uhc_phase matches 1 run worldborder set 1000 300
-execute if score #phase uhc_phase matches 2 run worldborder set 500 600
-execute if score #phase uhc_phase matches 3 run worldborder set 250 600
-execute if score #phase uhc_phase matches 4 run worldborder set 100 600
-execute if score #phase uhc_phase matches 5 run worldborder set 50 600
-execute if score #phase uhc_phase matches 6 run worldborder set 20 300
+execute if score #phase uhc_phase matches 2 run worldborder set 500 160
+execute if score #phase uhc_phase matches 3 run worldborder set 250 160
+execute if score #phase uhc_phase matches 4 run worldborder set 100 160
+execute if score #phase uhc_phase matches 5 run worldborder set 50 160
+execute if score #phase uhc_phase matches 6 run worldborder set 10 160
 
 # 縮圈警告
 execute if score #phase uhc_phase matches 1 run function mypack:warning
